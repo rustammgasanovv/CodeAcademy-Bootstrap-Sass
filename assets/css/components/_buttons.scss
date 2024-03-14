@@ -1,0 +1,24 @@
+.button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.btn-error{
+    @extend .button;
+    background-color: red;
+    color: white;
+}
+
+.btn-succes{
+    @extend .butto;
+    background-color: green;
+    color: white;
+}
+
+.btn-warning{
+    @extend .button;
+    background-color: yellow;
+    color: black;
+}
